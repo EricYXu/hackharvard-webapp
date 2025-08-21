@@ -35,6 +35,12 @@ export default defineConfig({
                 ],
             },
             {
+                label: 'Maps',
+                items: [
+                    { label: 'Floor 1 Map', slug: 'map/floor1_map' }
+                ],
+            },
+            {
                 label: 'Reference',
                 items: [
                     { label: 'Shuttles', slug: 'reference/shuttles' },

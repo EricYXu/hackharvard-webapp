@@ -1,4 +1,4 @@
-#
+# HackHarvard 2025 Web App
 
 ## Setup
 
