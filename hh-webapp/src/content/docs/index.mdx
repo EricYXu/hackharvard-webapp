@@ -1,6 +1,6 @@
 ---
 title: Welcome to HackHarvard 2025, Compile the Decade!
-description: Get started building your docs site with Starlight.
+description: HackHarvard
 template: splash
 hero:
   tagline: Build something that will make history.
@@ -8,7 +8,7 @@ hero:
     file: ../../assets/hackharvard_lion.png
   actions:
     - text: Let's Go!
-      link: /guides/announcements/
+      link: /rules/ground_rules/
       icon: right-arrow
     - text: HackHarvard Non-Participant Page
       link: https://hackharvard.io/
@@ -16,21 +16,15 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-## Hacker Information
+
+## Important Hacker Information
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+	<LinkCard title="Updates" href="/updates/announcements_10-03" description="Stay in the loop throughout HackHarvard."/>
+	<LinkCard title="Rules" href="/rules/ground_rules" description="Review the relevant rules and regulations."/>
+	<LinkCard title="Schedule" href="/schedule/day1_schedule" description="Know about exciting events and panels."/>
+	<LinkCard title="Map" href="/rules/ground_rules" description="Find out where the action is."/>
+	<LinkCard title="References" href="/reference/shuttles" description="Reference miscellaneous information."/>
 </CardGrid>
