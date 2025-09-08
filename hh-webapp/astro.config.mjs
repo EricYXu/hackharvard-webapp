@@ -43,7 +43,9 @@ export default defineConfig({
             {
                 label: 'Reference',
                 items: [
-                    { label: 'Shuttles', slug: 'reference/shuttles' },
+                    { label: 'Location', slug: 'reference/location' },
+                    { label: 'Parking', slug: 'reference/parking' },
+                    { label: 'Shuttles', slug: 'reference/shuttles' }
                 ]
             },
         ],
