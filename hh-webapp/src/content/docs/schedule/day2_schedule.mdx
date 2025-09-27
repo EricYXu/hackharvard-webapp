@@ -3,17 +3,51 @@ title: Day 2 Schedule
 description: HackHarvard
 ---
 
-import { Card } from '@astrojs/starlight/components';
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
-Tentative schedule for HackHarvard 2025: Day 2.
+Tentative schedule for Saturday October 4, 2025.
 
-<Card title="09:00 AM - 12:00 PM EST: Check-In" icon="open-book">
-	Check in here.
-</Card>
-<Card title="12:00 PM - 5:00 PM EST: Events" icon="codePen">
-	Events here.
-</Card>
-<Card title="5:00 PM - 09:00 AM EST: Open Work Session" icon="codePen">
-	Work here.
-</Card>
+<CardGrid stagger>
+	<Card title="Meals" icon="apple">
+		**Breakfast:** 8:00 - 10:00 AM \
+		**Lunch:** 12:00 - 1:30 PM \
+		**Dinner:** 6:30 - 8:00 PM \
+		**Location:** Various locations in Student Organization Center at Hilles (SOCH)
+	</Card>
+	<Card title="Sponsor Recruiter Fair" icon="seti:folder">
+		**Time:** 10:00 AM - 12:00 PM \
+		**Location:** SOCH Lobby \
+		**Note:** Hear more from our sponsors!
+	</Card>
+	<Card title="Workshops" icon="seti:json">
+		**Major League Hacking** \
+		**Time:** 1:30 - 2:30 PM \
+		**Location:** Auditorium
+
+		**Telora: How to Start a Startup** \
+		**Time:** 2:30 - 3:30 PM \
+		**Location:** Auditorium
+	</Card>
+	<Card title="Fun Events!" icon="comment">
+		**Harvard Tours Round 1** \
+		**Time:** 3:30 - 4:30 PM \
+		**Location:** Various locations at Harvard University
+
+		**Harvard Tours Round 2** \
+		**Time:** 4:30 - 5:30 PM \
+		**Location:** Various locations at Harvard University
+
+		**Typeracer Tournament** \
+		**Time:** 5:00 - 6:00 PM \
+		**Location:** SOCH Lobby
+
+		**Zinneken's Waffle Truck** \
+		**Time:** 5:00 - 7:00 PM \
+		**Location:** SOCH Courtyard
+
+		**Poker Tournament** \
+		**Time:** 9:00 - 11:00 PM \
+		**Location:** SOCH Lobby
+	</Card>
+</CardGrid>
 

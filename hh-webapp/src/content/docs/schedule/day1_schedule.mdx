@@ -3,17 +3,34 @@ title: Day 1 Schedule
 description: HackHarvard
 ---
 
-import { Card } from '@astrojs/starlight/components';
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
-Tentative schedule for HackHarvard 2025: Day 1.
+Tentative schedule for Friday October 3, 2025.
 
-<Card title="09:00 AM - 12:00 PM EST: Check-In" icon="open-book">
-	Check in here.
-</Card>
-<Card title="12:00 PM - 5:00 PM EST: Events" icon="codePen">
-	Events here.
-</Card>
-<Card title="5:00 PM - 09:00 AM EST: Open Work Session" icon="codePen">
-	Work here.
-</Card>
+<CardGrid stagger>
+	<Card title="Registration" icon="open-book">
+		**Time:** 4:00 - 7:00 PM \
+		**Location:** Student Organization Center at Hilles (SOCH) Lobby \
+		**Note:** Check in to HackHarvard 2025. 
+	</Card>
+	<Card title="Meals" icon="apple">
+		**Dinner:** 5:00 - 7:00 PM \
+		**Late Dinner:** 8:00 PM - 10:00 PM \
+		**Location:** Various locations in SOCH
+	</Card>
+	<Card title="Opening Ceremony" icon="rocket">
+		**Time:** 7:00 - 8:00 PM \
+		**Location:** Event Hall A \
+		**Note:** Official kickoff to HackHarvard 2025!
+	</Card>
+	<Card title="CS50 Workshops" icon="laptop">
+		**AI Workshop:** 8:00 - 9:00 PM \
+		**VR Workshop:** 9:00 - 10:00 PM \
+		**Location:** Event Hall B 
+	</Card>
+	<Card title="Pitch Pit: Find your team!" icon="comment">
+		**Time:** 10:00 - 10:50 PM \
+		**Location:** Aramco Lounge
+	</Card>
+</CardGrid>
 

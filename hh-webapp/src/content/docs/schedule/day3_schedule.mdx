@@ -3,17 +3,29 @@ title: Day 3 Schedule
 description: HackHarvard
 ---
 
-import { Card } from '@astrojs/starlight/components';
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
-Tentative schedule for HackHarvard 2025: Day 3.
+Tentative schedule for Sunday October 5, 2025.
 
-<Card title="09:00 AM - 12:00 PM EST: Check-In" icon="open-book">
-	Check in here.
-</Card>
-<Card title="12:00 PM - 5:00 PM EST: Events" icon="codePen">
-	Events here.
-</Card>
-<Card title="5:00 PM - 09:00 AM EST: Open Work Session" icon="codePen">
-	Work here.
-</Card>
+<CardGrid stagger>
+	<Card title="Meals" icon="apple">
+		**Breakfast:** 7:00 - 9:00 AM \
+		**Location:** Various locations in Student Organization Center at Hilles (SOCH)
+	</Card>
+	<Card title="Project Submission Deadline" icon="download">
+		**Time:** By 8:00 AM \
+		**Note:** Project Submissions Due on Devpost by 8AM!
+	</Card>
+	<Card title="Judging Sessions" icon="pen">
+		**Judging Group 1 Time:** 9:00 - 10:00 AM \
+		**Judging Group 2 Time:** 10:15 - 11:15 AM \
+		**Location:** Event Hall A/B
+	</Card>
+	<Card title="Closing Ceremony" icon="rocket">
+		**Time: 12:00 - 1:00 PM** \
+		**Note:** Official closing to HackHarvard 2025! 
+		
+		Thanks for coming!
+	</Card>
+</CardGrid>
 
