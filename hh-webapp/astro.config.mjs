@@ -6,6 +6,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
+    site: 'https://info.hackharvard.io',
     integrations: [starlight({
         title: 'HackHarvard Handbook',
         social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/hackharvard' }],
